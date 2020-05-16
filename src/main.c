@@ -8,7 +8,6 @@ void info_print();
 int board_main();
 
 int main() {
-//    int egg = 0;
     system("clear");
     char q;
     info_print();
@@ -62,11 +61,6 @@ int board_main() {
     }
     return 0;
 }
-
-                    //    scanf("%d", &egg);
-                    //    if (egg == 1) {
-                    //    printf("Andrey Shiryaew");
-
 void info_print() {
 
     system("clear");
@@ -78,12 +72,6 @@ void info_print() {
     "\t      ███║     ███╔══███║███╔══╝  ╚════███║╚════███║\n"
     "\t      ╚███████╗███║  ███║████████╗████████║████████║\n"
     "\t       ╚══════╝╚══╝  ╚══╝╚═══════╝╚═══════╝╚═══════╝\n\n%s", GREEN, RESET);
-
-    printf("%s"
-    "\t╦╔═┬─┐┌─┐┌─┐┬┌─┌─┐┌┐┌┌─┐╔═╗┌─┐┬─┐┌─┐  ╔═╗┬─┐┌─┐┌─┐┌─┐┌┐┌┌┬┐\n"
-    "\t╠╩╗├┬┘├─┤│  ├┴┐├┤ │││└─┐║  │ │├┬┘├─┘  ╠═╝├┬┘├┤ └─┐├┤ │││ │ \n"
-    "\t╩ ╩┴└─┴ ┴└─┘┴ ┴└─┘┘└┘└─┘╚═╝└─┘┴└─┴    ╩  ┴└─└─┘└─┘└─┘┘└┘ ┴ \n%s", GRAY, RESET);
-    
     printf("%s\t\n         Выберите действие\n\n%s", GREEN, RESET);
     printf("\t    %s(s) Старт\n", CYAN);
     printf("\t    %s(q) Выход\n", CYAN);
